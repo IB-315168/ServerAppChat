@@ -8,7 +8,7 @@ public class LoginServer
 {
   public static void main(String[] args) throws IOException
   {
-    ServerSocket serverSocket = new ServerSocket(8888);
+    ServerSocket serverSocket = new ServerSocket(8080);
     Broadcaster broadcaster = new Broadcaster();
 
     while (true) {

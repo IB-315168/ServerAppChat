@@ -5,21 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ef0084ca-6c1d-45cd-8f97-2d3a34e88743" name="Changes" comment="pom">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/igorbulinski/chat/server/Broadcaster.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/igorbulinski/chat/server/LoginServer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/igorbulinski/chat/server/MessageCommunicator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/module-info.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs-10-10-2022.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/igorbulinski/chat/model/Message.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/igorbulinski/chat/server/Message.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/igorbulinski/chat/server/Log.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/igorbulinski/chat/server/Log.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/igorbulinski/chat/server/RemoteMessageImplementation.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/igorbulinski/chat/server/StartServer.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/igorbulinski/chat/servermodel/RemoteMessage.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/dk/via/remote/observer/RemotePropertyChangeEvent.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/dk/via/remote/observer/RemotePropertyChangeListener.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/dk/via/remote/observer/RemotePropertyChangeSupport.java" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs-10-10-2022.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/module-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/module-info.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,17 +35,21 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/projects/java/tutorials/ServerAppChat/src/main/java&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "D:/projects/java/tutorials/ServerAppChat/src/main/java",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "preferences.lookFeel"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\projects\java\tutorials\ServerAppChat\src\main\java" />
@@ -108,6 +99,7 @@
       <updated>1665400757237</updated>
       <workItem from="1665400758456" duration="902000" />
       <workItem from="1665401676244" duration="1662000" />
+      <workItem from="1665403566296" duration="330000" />
     </task>
     <task id="LOCAL-00001" summary="Init">
       <created>1665400911585</created>
@@ -137,7 +129,14 @@
       <option name="project" value="LOCAL" />
       <updated>1665401728075</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="pom">
+      <created>1665403629222</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1665403629222</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

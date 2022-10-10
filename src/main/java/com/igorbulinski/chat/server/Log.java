@@ -28,16 +28,19 @@ public final class Log
   public void addLog(String message) throws IOException
   {
     messages.add(message);
-    save(message);
+    save();
   }
 
-  public void save(String message) throws IOException
+  public void save() throws IOException
   {
     Calendar calendar = Calendar.getInstance();
     FileWriter writer = new FileWriter(
         "logs-" + calendar.get(Calendar.DAY_OF_MONTH) + "-" +
-            String.valueOf(calendar.get(Calendar.MONTH)+1) + "-" + calendar.get(Calendar.YEAR) +".txt", true);
-    writer.write(message + "\n");
+            String.valueOf(calendar.get(Calendar.MONTH)+1) + "-" + calendar.get(Calendar.YEAR) +".txt");
+    for (String s : messages)
+    {
+      writer.append(s + "\n");
+    }
     writer.close();
   }
 }

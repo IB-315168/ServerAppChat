@@ -1,10 +1,9 @@
-package com.igorbulinski.chat.model;
+package com.igorbulinski.chat.server;
 
-import java.io.Serializable;
 import java.sql.Timestamp;
 import java.text.SimpleDateFormat;
 
-public class Message implements Serializable
+public class Message
 {
   private String username;
   private Timestamp timestamp;
